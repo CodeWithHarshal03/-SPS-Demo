@@ -1,0 +1,29 @@
+EXECUTING: C:\Users\Victus\AppData\Local\Android\Sdk\build-tools\34.0.0\aapt.exe dump badging C:\Users\Victus\AndroidStudioProjects\SmartParking\app\build\intermediates\apk\androidTest\debug\app-debug-androidTest.apk
+CURRENT_WORKING_DIRECTORY: C:\Users\Victus\AndroidStudioProjects\SmartParking
+START_TIME: 2024-10-13 08:51:59.819
+START_TIME-NANOS: 2024-10-13 08:51:59.819414200
+ENVIRONMENT:
+
+*****************************************
+STDOUT/STDERR BELOW
+===================
+package: name='com.example.smartparking.test' versionCode='' versionName='' platformBuildVersionName='14' platformBuildVersionCode='34' compileSdkVersion='34' compileSdkVersionCodename='14'
+sdkVersion:'24'
+targetSdkVersion:'34'
+uses-permission: name='android.permission.REORDER_TASKS'
+application: label='' icon=''
+application-debuggable
+uses-library:'android.test.runner'
+feature-group: label=''
+  uses-feature: name='android.hardware.faketouch'
+  uses-implied-feature: name='android.hardware.faketouch' reason='default feature for all apps'
+other-activities
+supports-screens: 'small' 'normal' 'large' 'xlarge'
+supports-any-density: 'true'
+locales: '--_--'
+densities: '160'
+===================
+END_TIME: 2024-10-13 08:51:59.847
+END_TIME-NANOS: 2024-10-13 08:51:59.847965800
+DURATION: 28ms
+EXIT CODE: 0

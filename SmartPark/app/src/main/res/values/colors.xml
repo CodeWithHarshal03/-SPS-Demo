@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background_dark">#1E1E2D</color> <!-- Dark background -->
+    <color name="primary_color">#FFAA33</color> <!-- Orange for buttons and highlights -->
+    <color name="input_background">#2B2B3E</color> <!-- Darker background for input fields -->
+    <color name="white">#FFFFFF</color> <!-- White text -->
+    <color name="glass_background">#80FFFFFF</color> <!-- Semi-transparent white for glass -->
+    <color name="shadow_color">#40000000</color> <!-- Semi-transparent black for shadow -->
+    <color name="black">#000000</color>
+</resources>

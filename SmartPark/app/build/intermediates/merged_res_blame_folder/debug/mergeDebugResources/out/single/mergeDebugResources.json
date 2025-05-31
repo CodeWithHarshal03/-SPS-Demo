@@ -1,0 +1,194 @@
+[
+    {
+        "merged": "C:\\Users\\Victus\\.gradle\\daemon\\8.7\\com.example.smartparking.app-debug-42:\\drawable_baseline_touch_app_24.xml.flat",
+        "source": "C:\\Users\\Victus\\.gradle\\daemon\\8.7\\com.example.smartparking.app-main-44:\\drawable\\baseline_touch_app_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Victus\\.gradle\\daemon\\8.7\\com.example.smartparking.app-debug-42:\\layout_activity_profileuser.xml.flat",
+        "source": "C:\\Users\\Victus\\.gradle\\daemon\\8.7\\com.example.smartparking.app-main-44:\\layout\\activity_profileuser.xml"
+    },
+    {
+        "merged": "C:\\Users\\Victus\\.gradle\\daemon\\8.7\\com.example.smartparking.app-debug-42:\\drawable-xhdpi_ic_action_name.png.flat",
+        "source": "C:\\Users\\Victus\\.gradle\\daemon\\8.7\\com.example.smartparking.app-main-44:\\drawable-xhdpi\\ic_action_name.png"
+    },
+    {
+        "merged": "C:\\Users\\Victus\\.gradle\\daemon\\8.7\\com.example.smartparking.app-debug-42:\\layout_activity_onlyforcopypast.xml.flat",
+        "source": "C:\\Users\\Victus\\.gradle\\daemon\\8.7\\com.example.smartparking.app-main-44:\\layout\\activity_onlyforcopypast.xml"
+    },
+    {
+        "merged": "C:\\Users\\Victus\\.gradle\\daemon\\8.7\\com.example.smartparking.app-debug-42:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\Victus\\.gradle\\daemon\\8.7\\com.example.smartparking.app-main-44:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\Victus\\.gradle\\daemon\\8.7\\com.example.smartparking.app-debug-42:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\Victus\\.gradle\\daemon\\8.7\\com.example.smartparking.app-main-44:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\Victus\\.gradle\\daemon\\8.7\\com.example.smartparking.app-debug-42:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Victus\\.gradle\\daemon\\8.7\\com.example.smartparking.app-main-44:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\Victus\\.gradle\\daemon\\8.7\\com.example.smartparking.app-debug-42:\\drawable_frontimg.png.flat",
+        "source": "C:\\Users\\Victus\\.gradle\\daemon\\8.7\\com.example.smartparking.app-main-44:\\drawable\\frontimg.png"
+    },
+    {
+        "merged": "C:\\Users\\Victus\\.gradle\\daemon\\8.7\\com.example.smartparking.app-debug-42:\\layout_activity_login_register.xml.flat",
+        "source": "C:\\Users\\Victus\\.gradle\\daemon\\8.7\\com.example.smartparking.app-main-44:\\layout\\activity_login_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\Victus\\.gradle\\daemon\\8.7\\com.example.smartparking.app-debug-42:\\drawable_baseline_alternate_email_24.xml.flat",
+        "source": "C:\\Users\\Victus\\.gradle\\daemon\\8.7\\com.example.smartparking.app-main-44:\\drawable\\baseline_alternate_email_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Victus\\.gradle\\daemon\\8.7\\com.example.smartparking.app-debug-42:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Victus\\.gradle\\daemon\\8.7\\com.example.smartparking.app-main-44:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\Victus\\.gradle\\daemon\\8.7\\com.example.smartparking.app-debug-42:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Victus\\.gradle\\daemon\\8.7\\com.example.smartparking.app-main-44:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Victus\\.gradle\\daemon\\8.7\\com.example.smartparking.app-debug-42:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Victus\\.gradle\\daemon\\8.7\\com.example.smartparking.app-main-44:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Victus\\.gradle\\daemon\\8.7\\com.example.smartparking.app-debug-42:\\layout_activity_makea_payment.xml.flat",
+        "source": "C:\\Users\\Victus\\.gradle\\daemon\\8.7\\com.example.smartparking.app-main-44:\\layout\\activity_makea_payment.xml"
+    },
+    {
+        "merged": "C:\\Users\\Victus\\.gradle\\daemon\\8.7\\com.example.smartparking.app-debug-42:\\layout_activity_login_register_user.xml.flat",
+        "source": "C:\\Users\\Victus\\.gradle\\daemon\\8.7\\com.example.smartparking.app-main-44:\\layout\\activity_login_register_user.xml"
+    },
+    {
+        "merged": "C:\\Users\\Victus\\.gradle\\daemon\\8.7\\com.example.smartparking.app-debug-42:\\drawable_alternate_email_20px.xml.flat",
+        "source": "C:\\Users\\Victus\\.gradle\\daemon\\8.7\\com.example.smartparking.app-main-44:\\drawable\\alternate_email_20px.xml"
+    },
+    {
+        "merged": "C:\\Users\\Victus\\.gradle\\daemon\\8.7\\com.example.smartparking.app-debug-42:\\layout_activity_user_switch.xml.flat",
+        "source": "C:\\Users\\Victus\\.gradle\\daemon\\8.7\\com.example.smartparking.app-main-44:\\layout\\activity_user_switch.xml"
+    },
+    {
+        "merged": "C:\\Users\\Victus\\.gradle\\daemon\\8.7\\com.example.smartparking.app-debug-42:\\drawable-xxhdpi_ic_action_name.png.flat",
+        "source": "C:\\Users\\Victus\\.gradle\\daemon\\8.7\\com.example.smartparking.app-main-44:\\drawable-xxhdpi\\ic_action_name.png"
+    },
+    {
+        "merged": "C:\\Users\\Victus\\.gradle\\daemon\\8.7\\com.example.smartparking.app-debug-42:\\drawable_custome_eddit.xml.flat",
+        "source": "C:\\Users\\Victus\\.gradle\\daemon\\8.7\\com.example.smartparking.app-main-44:\\drawable\\custome_eddit.xml"
+    },
+    {
+        "merged": "C:\\Users\\Victus\\.gradle\\daemon\\8.7\\com.example.smartparking.app-debug-42:\\drawable_person_20px.xml.flat",
+        "source": "C:\\Users\\Victus\\.gradle\\daemon\\8.7\\com.example.smartparking.app-main-44:\\drawable\\person_20px.xml"
+    },
+    {
+        "merged": "C:\\Users\\Victus\\.gradle\\daemon\\8.7\\com.example.smartparking.app-debug-42:\\drawable_baseline_send_24.xml.flat",
+        "source": "C:\\Users\\Victus\\.gradle\\daemon\\8.7\\com.example.smartparking.app-main-44:\\drawable\\baseline_send_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Victus\\.gradle\\daemon\\8.7\\com.example.smartparking.app-debug-42:\\layout_activity_ticket.xml.flat",
+        "source": "C:\\Users\\Victus\\.gradle\\daemon\\8.7\\com.example.smartparking.app-main-44:\\layout\\activity_ticket.xml"
+    },
+    {
+        "merged": "C:\\Users\\Victus\\.gradle\\daemon\\8.7\\com.example.smartparking.app-debug-42:\\drawable-hdpi_ic_action_name.png.flat",
+        "source": "C:\\Users\\Victus\\.gradle\\daemon\\8.7\\com.example.smartparking.app-main-44:\\drawable-hdpi\\ic_action_name.png"
+    },
+    {
+        "merged": "C:\\Users\\Victus\\.gradle\\daemon\\8.7\\com.example.smartparking.app-debug-42:\\layout_activity_adminstratoravailable.xml.flat",
+        "source": "C:\\Users\\Victus\\.gradle\\daemon\\8.7\\com.example.smartparking.app-main-44:\\layout\\activity_adminstratoravailable.xml"
+    },
+    {
+        "merged": "C:\\Users\\Victus\\.gradle\\daemon\\8.7\\com.example.smartparking.app-debug-42:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Victus\\.gradle\\daemon\\8.7\\com.example.smartparking.app-main-44:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Victus\\.gradle\\daemon\\8.7\\com.example.smartparking.app-debug-42:\\layout_activity_parking_booking.xml.flat",
+        "source": "C:\\Users\\Victus\\.gradle\\daemon\\8.7\\com.example.smartparking.app-main-44:\\layout\\activity_parking_booking.xml"
+    },
+    {
+        "merged": "C:\\Users\\Victus\\.gradle\\daemon\\8.7\\com.example.smartparking.app-debug-42:\\drawable_baseline_lock_24.xml.flat",
+        "source": "C:\\Users\\Victus\\.gradle\\daemon\\8.7\\com.example.smartparking.app-main-44:\\drawable\\baseline_lock_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Victus\\.gradle\\daemon\\8.7\\com.example.smartparking.app-debug-42:\\drawable-mdpi_ic_action_name.png.flat",
+        "source": "C:\\Users\\Victus\\.gradle\\daemon\\8.7\\com.example.smartparking.app-main-44:\\drawable-mdpi\\ic_action_name.png"
+    },
+    {
+        "merged": "C:\\Users\\Victus\\.gradle\\daemon\\8.7\\com.example.smartparking.app-debug-42:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Victus\\.gradle\\daemon\\8.7\\com.example.smartparking.app-main-44:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Victus\\.gradle\\daemon\\8.7\\com.example.smartparking.app-debug-42:\\layout_activity_parking_available.xml.flat",
+        "source": "C:\\Users\\Victus\\.gradle\\daemon\\8.7\\com.example.smartparking.app-main-44:\\layout\\activity_parking_available.xml"
+    },
+    {
+        "merged": "C:\\Users\\Victus\\.gradle\\daemon\\8.7\\com.example.smartparking.app-debug-42:\\drawable_baseline_person_24.xml.flat",
+        "source": "C:\\Users\\Victus\\.gradle\\daemon\\8.7\\com.example.smartparking.app-main-44:\\drawable\\baseline_person_24.xml"
+    },
+    {
+        "merged": "com.example.smartparking.app-debug-42:/layout_activity_parking_booking.xml.flat",
+        "source": "com.example.smartparking.app-main-44:/layout/activity_parking_booking.xml"
+    },
+    {
+        "merged": "C:\\Users\\Victus\\.gradle\\daemon\\8.7\\com.example.smartparking.app-debug-42:\\drawable-anydpi_ic_action_name.xml.flat",
+        "source": "C:\\Users\\Victus\\.gradle\\daemon\\8.7\\com.example.smartparking.app-main-44:\\drawable-anydpi\\ic_action_name.xml"
+    },
+    {
+        "merged": "C:\\Users\\Victus\\.gradle\\daemon\\8.7\\com.example.smartparking.app-debug-42:\\drawable_lock_20px.xml.flat",
+        "source": "C:\\Users\\Victus\\.gradle\\daemon\\8.7\\com.example.smartparking.app-main-44:\\drawable\\lock_20px.xml"
+    },
+    {
+        "merged": "C:\\Users\\Victus\\.gradle\\daemon\\8.7\\com.example.smartparking.app-debug-42:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Victus\\.gradle\\daemon\\8.7\\com.example.smartparking.app-main-44:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Victus\\.gradle\\daemon\\8.7\\com.example.smartparking.app-debug-42:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Victus\\.gradle\\daemon\\8.7\\com.example.smartparking.app-main-44:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Victus\\.gradle\\daemon\\8.7\\com.example.smartparking.app-debug-42:\\layout_activity_bookslots.xml.flat",
+        "source": "C:\\Users\\Victus\\.gradle\\daemon\\8.7\\com.example.smartparking.app-main-44:\\layout\\activity_bookslots.xml"
+    },
+    {
+        "merged": "C:\\Users\\Victus\\.gradle\\daemon\\8.7\\com.example.smartparking.app-debug-42:\\drawable_ic_placeholder.xml.flat",
+        "source": "C:\\Users\\Victus\\.gradle\\daemon\\8.7\\com.example.smartparking.app-main-44:\\drawable\\ic_placeholder.xml"
+    },
+    {
+        "merged": "C:\\Users\\Victus\\.gradle\\daemon\\8.7\\com.example.smartparking.app-debug-42:\\drawable_baseline_phone_24.xml.flat",
+        "source": "C:\\Users\\Victus\\.gradle\\daemon\\8.7\\com.example.smartparking.app-main-44:\\drawable\\baseline_phone_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Victus\\.gradle\\daemon\\8.7\\com.example.smartparking.app-debug-42:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Victus\\.gradle\\daemon\\8.7\\com.example.smartparking.app-main-44:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Victus\\.gradle\\daemon\\8.7\\com.example.smartparking.app-debug-42:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Victus\\.gradle\\daemon\\8.7\\com.example.smartparking.app-main-44:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Victus\\.gradle\\daemon\\8.7\\com.example.smartparking.app-debug-42:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Victus\\.gradle\\daemon\\8.7\\com.example.smartparking.app-main-44:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Victus\\.gradle\\daemon\\8.7\\com.example.smartparking.app-debug-42:\\drawable_parking_slot_background.xml.flat",
+        "source": "C:\\Users\\Victus\\.gradle\\daemon\\8.7\\com.example.smartparking.app-main-44:\\drawable\\parking_slot_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Victus\\.gradle\\daemon\\8.7\\com.example.smartparking.app-debug-42:\\layout_activity_dashboard.xml.flat",
+        "source": "C:\\Users\\Victus\\.gradle\\daemon\\8.7\\com.example.smartparking.app-main-44:\\layout\\activity_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\Victus\\.gradle\\daemon\\8.7\\com.example.smartparking.app-debug-42:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Victus\\.gradle\\daemon\\8.7\\com.example.smartparking.app-main-44:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Victus\\.gradle\\daemon\\8.7\\com.example.smartparking.app-debug-42:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Victus\\.gradle\\daemon\\8.7\\com.example.smartparking.app-main-44:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Victus\\.gradle\\daemon\\8.7\\com.example.smartparking.app-debug-42:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Victus\\.gradle\\daemon\\8.7\\com.example.smartparking.app-main-44:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Victus\\.gradle\\daemon\\8.7\\com.example.smartparking.app-debug-42:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Victus\\.gradle\\daemon\\8.7\\com.example.smartparking.app-main-44:\\mipmap-xxhdpi\\ic_launcher.webp"
+    }
+]

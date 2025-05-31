@@ -1,0 +1,5 @@
+com.example.smartparking.test.app-core-1.6.1-0 C:\Users\Victus\.gradle\caches\transforms-4\60b9c513dd064f2cc71bf2e05098199b\transformed\core-1.6.1\res
+com.example.smartparking.test.app-androidTest-1 C:\Users\Victus\AndroidStudioProjects\SmartParking\app\build\generated\res\resValues\androidTest\debug
+com.example.smartparking.test.app-mergeDebugAndroidTestResources-2 C:\Users\Victus\AndroidStudioProjects\SmartParking\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.example.smartparking.test.app-mergeDebugAndroidTestResources-3 C:\Users\Victus\AndroidStudioProjects\SmartParking\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.example.smartparking.test.app-debugAndroidTest-4 C:\Users\Victus\AndroidStudioProjects\SmartParking\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources

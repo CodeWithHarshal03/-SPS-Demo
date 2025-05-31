@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32" />
+
+    <application
+        android:allowBackup="true"
+        android:usesCleartextTraffic="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/frontimg"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SmartParking"
+        tools:targetApi="31">
+
+        <!-- Razorpay Checkout Activity -->
+        <activity
+            android:name="com.razorpay.CheckoutActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            tools:replace="android:theme"/>
+
+        <!-- App Activities -->
+        <activity android:name=".MakeaPayment" android:exported="false" />
+
+        <activity android:name=".Adminstratoravailable" android:exported="false" />
+        <activity android:name=".ParkingBookingActivity" android:exported="false" />
+        <activity android:name=".TicketActivity" android:exported="false" />
+        <activity android:name=".bookslots" android:exported="false" />
+
+        <activity android:name=".profileuser" android:exported="false" />
+        <activity android:name=".ParkingAvailable" android:exported="false" />
+        <activity android:name=".Dashboard" android:exported="false" />
+        <activity android:name=".LoginRegisterUser" android:exported="false" />
+        <activity android:name=".user_Switch" android:exported="false" />
+        <activity android:name=".LoginRegisterActivity" android:exported="false" />
+
+        <!-- Google Maps API Key (Make sure it's secured) -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDDftmnOrKPEH7yEuI6oYGulpnb-13Wai0" />
+
+        <!-- Main Activity -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+</manifest>

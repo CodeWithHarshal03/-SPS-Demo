@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1E1E2D"
+    tools:context=".LoginRegisterActivity">
+
+  <!-- App Logo -->
+  <ImageView
+      android:id="@+id/logoImageView2"
+      android:layout_width="100dp"
+      android:layout_height="100dp"
+      android:layout_marginTop="40dp"
+      android:src="@drawable/baseline_touch_app_24"
+      android:contentDescription="App Logo"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintEnd_toEndOf="parent" />
+
+  <!-- App Title -->
+  <TextView
+      android:id="@+id/appTitle2"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="10dp"
+      android:fontFamily="sans-serif-black"
+      android:text="USER"
+      android:textColor="#FFFFFF"
+      android:textSize="18sp"
+      app:layout_constraintTop_toBottomOf="@id/logoImageView2"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintEnd_toEndOf="parent" />
+
+  <!-- Welcome Text -->
+  <TextView
+      android:id="@+id/welcomeText2"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="WELCOME 😊"
+      android:textColor="#FFAA33"
+      android:textSize="14sp"
+      android:layout_marginTop="10dp"
+      app:layout_constraintTop_toBottomOf="@id/appTitle2"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintEnd_toEndOf="parent" />
+
+  <!-- CardView with glass-like effect -->
+  <androidx.cardview.widget.CardView
+      android:layout_width="350dp"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="50dp"
+      android:backgroundTint="#3DFFFFFF"
+
+      android:elevation="8dp"
+      android:layout_gravity="center"
+      app:cardCornerRadius="20dp"
+      app:layout_constraintTop_toBottomOf="@id/welcomeText2"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:gravity="center">
+
+      <!-- Login/SignUp Toggle -->
+      <LinearLayout
+          android:id="@+id/loginSignUpSwitch2"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+          android:gravity="center"
+          android:layout_marginBottom="20dp">
+
+        <TextView
+            android:id="@+id/loginText2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="30dp"
+            android:onClick="showLoginView"
+            android:text="Login"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/signUpText2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="showSignUpView"
+            android:text="Sign up"
+            android:textColor="#FFAA33"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+      </LinearLayout>
+
+      <!-- Full Name Input Field (Visible in SignUp mode only) -->
+      <com.google.android.material.textfield.TextInputLayout
+          android:id="@+id/nameInputLayout2"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:hint="Full Name"
+          android:visibility="gone"
+          app:boxBackgroundColor="#2B2B3E"
+          app:hintTextColor="@color/white">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/nameEditText2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#2B2B3E"
+            android:drawableLeft="@drawable/baseline_person_24"
+            android:drawablePadding="8dp" />
+      </com.google.android.material.textfield.TextInputLayout>
+
+      <!-- Email Input Field -->
+      <com.google.android.material.textfield.TextInputLayout
+          android:id="@+id/emailInputLayout2"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:hint="Email"
+          app:boxBackgroundColor="#2B2B3E"
+          app:hintTextColor="@color/white">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/emailEditText2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#2B2B3E"
+            android:drawableLeft="@drawable/baseline_alternate_email_24"
+            android:drawablePadding="8dp" />
+      </com.google.android.material.textfield.TextInputLayout>
+
+      <!-- Password Input Field -->
+      <com.google.android.material.textfield.TextInputLayout
+          android:id="@+id/passwordInputLayout12"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:hint="Password"
+          app:boxBackgroundColor="#2B2B3E"
+          app:hintTextColor="@color/white">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/passwordEditText2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#2B2B3E"
+            android:drawableLeft="@drawable/baseline_lock_24"
+            android:drawablePadding="8dp"
+            android:inputType="textPassword" />
+      </com.google.android.material.textfield.TextInputLayout>
+
+      <!-- Sign Up/Login Button -->
+      <Button
+          android:id="@+id/signUpButton2"
+          android:layout_width="250dp"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:layout_marginTop="20dp"
+          android:layout_marginBottom="20dp"
+          android:backgroundTint="#FFAA33"
+          android:drawableLeft="@drawable/baseline_lock_24"
+          android:drawablePadding="8dp"
+          android:padding="12dp"
+          android:text="SIGN UP"
+          android:textAllCaps="false"
+          android:textColor="#FFFFFF"
+          android:onClick="onSignUpButtonClick"/>
+    </LinearLayout>
+  </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,511 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.smartparking"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\Victus\AndroidStudioProjects\SmartParking\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\Victus\AndroidStudioProjects\SmartParking\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+12-->C:\Users\Victus\AndroidStudioProjects\SmartParking\app\src\main\AndroidManifest.xml:6:5-79
+12-->C:\Users\Victus\AndroidStudioProjects\SmartParking\app\src\main\AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+13-->C:\Users\Victus\AndroidStudioProjects\SmartParking\app\src\main\AndroidManifest.xml:7:5-81
+13-->C:\Users\Victus\AndroidStudioProjects\SmartParking\app\src\main\AndroidManifest.xml:7:22-78
+14
+15    <!-- Include required permissions for Google Maps API to run. -->
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+16-->[com.google.android.gms:play-services-maps:19.0.0] C:\Users\Victus\.gradle\caches\transforms-4\fa2fbe5b1e1e9e05a21c8e1ca5d172eb\transformed\play-services-maps-19.0.0\AndroidManifest.xml:23:5-79
+16-->[com.google.android.gms:play-services-maps:19.0.0] C:\Users\Victus\.gradle\caches\transforms-4\fa2fbe5b1e1e9e05a21c8e1ca5d172eb\transformed\play-services-maps-19.0.0\AndroidManifest.xml:23:22-76
+17
+18    <uses-feature
+18-->[com.google.android.gms:play-services-maps:19.0.0] C:\Users\Victus\.gradle\caches\transforms-4\fa2fbe5b1e1e9e05a21c8e1ca5d172eb\transformed\play-services-maps-19.0.0\AndroidManifest.xml:26:5-28:35
+19        android:glEsVersion="0x00020000"
+19-->[com.google.android.gms:play-services-maps:19.0.0] C:\Users\Victus\.gradle\caches\transforms-4\fa2fbe5b1e1e9e05a21c8e1ca5d172eb\transformed\play-services-maps-19.0.0\AndroidManifest.xml:27:9-41
+20        android:required="true" />
+20-->[com.google.android.gms:play-services-maps:19.0.0] C:\Users\Victus\.gradle\caches\transforms-4\fa2fbe5b1e1e9e05a21c8e1ca5d172eb\transformed\play-services-maps-19.0.0\AndroidManifest.xml:28:9-32
+21
+22    <queries>
+22-->[com.google.android.gms:play-services-maps:19.0.0] C:\Users\Victus\.gradle\caches\transforms-4\fa2fbe5b1e1e9e05a21c8e1ca5d172eb\transformed\play-services-maps-19.0.0\AndroidManifest.xml:30:5-34:15
+23
+24        <!-- Needs to be explicitly declared on Android R+ -->
+25        <package android:name="com.google.android.apps.maps" />
+25-->[com.google.android.gms:play-services-maps:19.0.0] C:\Users\Victus\.gradle\caches\transforms-4\fa2fbe5b1e1e9e05a21c8e1ca5d172eb\transformed\play-services-maps-19.0.0\AndroidManifest.xml:33:9-64
+25-->[com.google.android.gms:play-services-maps:19.0.0] C:\Users\Victus\.gradle\caches\transforms-4\fa2fbe5b1e1e9e05a21c8e1ca5d172eb\transformed\play-services-maps-19.0.0\AndroidManifest.xml:33:18-61
+26    </queries>
+27
+28    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+28-->[com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\Victus\.gradle\caches\transforms-4\bf91e1889184f46fb0f7c52ff7025218\transformed\recaptcha-18.4.0\AndroidManifest.xml:9:5-98
+28-->[com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\Victus\.gradle\caches\transforms-4\bf91e1889184f46fb0f7c52ff7025218\transformed\recaptcha-18.4.0\AndroidManifest.xml:9:22-95
+29
+30    <permission
+30-->[androidx.core:core:1.13.0] C:\Users\Victus\.gradle\caches\transforms-4\8c5ba91934ec45f194adc394ce8082a1\transformed\core-1.13.0\AndroidManifest.xml:22:5-24:47
+31        android:name="com.example.smartparking.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+31-->[androidx.core:core:1.13.0] C:\Users\Victus\.gradle\caches\transforms-4\8c5ba91934ec45f194adc394ce8082a1\transformed\core-1.13.0\AndroidManifest.xml:23:9-81
+32        android:protectionLevel="signature" />
+32-->[androidx.core:core:1.13.0] C:\Users\Victus\.gradle\caches\transforms-4\8c5ba91934ec45f194adc394ce8082a1\transformed\core-1.13.0\AndroidManifest.xml:24:9-44
+33
+34    <uses-permission android:name="com.example.smartparking.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+34-->[androidx.core:core:1.13.0] C:\Users\Victus\.gradle\caches\transforms-4\8c5ba91934ec45f194adc394ce8082a1\transformed\core-1.13.0\AndroidManifest.xml:26:5-97
+34-->[androidx.core:core:1.13.0] C:\Users\Victus\.gradle\caches\transforms-4\8c5ba91934ec45f194adc394ce8082a1\transformed\core-1.13.0\AndroidManifest.xml:26:22-94
+35
+36    <application
+36-->C:\Users\Victus\AndroidStudioProjects\SmartParking\app\src\main\AndroidManifest.xml:9:5-65:19
+37        android:allowBackup="true"
+37-->C:\Users\Victus\AndroidStudioProjects\SmartParking\app\src\main\AndroidManifest.xml:10:9-35
+38        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+38-->[androidx.core:core:1.13.0] C:\Users\Victus\.gradle\caches\transforms-4\8c5ba91934ec45f194adc394ce8082a1\transformed\core-1.13.0\AndroidManifest.xml:28:18-86
+39        android:dataExtractionRules="@xml/data_extraction_rules"
+39-->C:\Users\Victus\AndroidStudioProjects\SmartParking\app\src\main\AndroidManifest.xml:11:9-65
+40        android:debuggable="true"
+41        android:extractNativeLibs="false"
+42        android:fullBackupContent="@xml/backup_rules"
+42-->C:\Users\Victus\AndroidStudioProjects\SmartParking\app\src\main\AndroidManifest.xml:12:9-54
+43        android:icon="@mipmap/ic_launcher"
+43-->C:\Users\Victus\AndroidStudioProjects\SmartParking\app\src\main\AndroidManifest.xml:13:9-43
+44        android:label="@string/app_name"
+44-->C:\Users\Victus\AndroidStudioProjects\SmartParking\app\src\main\AndroidManifest.xml:14:9-41
+45        android:roundIcon="@mipmap/ic_launcher_round"
+45-->C:\Users\Victus\AndroidStudioProjects\SmartParking\app\src\main\AndroidManifest.xml:15:9-54
+46        android:supportsRtl="true"
+46-->C:\Users\Victus\AndroidStudioProjects\SmartParking\app\src\main\AndroidManifest.xml:16:9-35
+47        android:testOnly="true"
+48        android:theme="@style/Theme.SmartParking" >
+48-->C:\Users\Victus\AndroidStudioProjects\SmartParking\app\src\main\AndroidManifest.xml:17:9-50
+49        <meta-data
+49-->C:\Users\Victus\AndroidStudioProjects\SmartParking\app\src\main\AndroidManifest.xml:21:9-23:71
+50            android:name="com.google.android.geo.API_KEY"
+50-->C:\Users\Victus\AndroidStudioProjects\SmartParking\app\src\main\AndroidManifest.xml:22:13-58
+51            android:value="AIzaSyDDftmnOrKPEH7yEuI6oYGulpnb-13Wai0" />
+51-->C:\Users\Victus\AndroidStudioProjects\SmartParking\app\src\main\AndroidManifest.xml:23:13-68
+52
+53        <activity android:name="com.example.smartparking.ParkingBookingActivity" />
+53-->C:\Users\Victus\AndroidStudioProjects\SmartParking\app\src\main\AndroidManifest.xml:25:9-60
+53-->C:\Users\Victus\AndroidStudioProjects\SmartParking\app\src\main\AndroidManifest.xml:25:19-57
+54        <activity
+54-->C:\Users\Victus\AndroidStudioProjects\SmartParking\app\src\main\AndroidManifest.xml:26:9-28:40
+55            android:name="com.example.smartparking.TicketActivity"
+55-->C:\Users\Victus\AndroidStudioProjects\SmartParking\app\src\main\AndroidManifest.xml:27:13-43
+56            android:exported="false" />
+56-->C:\Users\Victus\AndroidStudioProjects\SmartParking\app\src\main\AndroidManifest.xml:28:13-37
+57        <activity
+57-->C:\Users\Victus\AndroidStudioProjects\SmartParking\app\src\main\AndroidManifest.xml:29:9-31:40
+58            android:name="com.example.smartparking.bookslots"
+58-->C:\Users\Victus\AndroidStudioProjects\SmartParking\app\src\main\AndroidManifest.xml:30:13-38
+59            android:exported="false" />
+59-->C:\Users\Victus\AndroidStudioProjects\SmartParking\app\src\main\AndroidManifest.xml:31:13-37
+60        <activity
+60-->C:\Users\Victus\AndroidStudioProjects\SmartParking\app\src\main\AndroidManifest.xml:32:9-34:40
+61            android:name="com.example.smartparking.notificationuser"
+61-->C:\Users\Victus\AndroidStudioProjects\SmartParking\app\src\main\AndroidManifest.xml:33:13-45
+62            android:exported="false" />
+62-->C:\Users\Victus\AndroidStudioProjects\SmartParking\app\src\main\AndroidManifest.xml:34:13-37
+63        <activity
+63-->C:\Users\Victus\AndroidStudioProjects\SmartParking\app\src\main\AndroidManifest.xml:35:9-37:40
+64            android:name="com.example.smartparking.profileuser"
+64-->C:\Users\Victus\AndroidStudioProjects\SmartParking\app\src\main\AndroidManifest.xml:36:13-40
+65            android:exported="false" />
+65-->C:\Users\Victus\AndroidStudioProjects\SmartParking\app\src\main\AndroidManifest.xml:37:13-37
+66        <activity
+66-->C:\Users\Victus\AndroidStudioProjects\SmartParking\app\src\main\AndroidManifest.xml:38:9-40:40
+67            android:name="com.example.smartparking.CCTVPhotoes"
+67-->C:\Users\Victus\AndroidStudioProjects\SmartParking\app\src\main\AndroidManifest.xml:39:13-40
+68            android:exported="false" />
+68-->C:\Users\Victus\AndroidStudioProjects\SmartParking\app\src\main\AndroidManifest.xml:40:13-37
+69        <activity
+69-->C:\Users\Victus\AndroidStudioProjects\SmartParking\app\src\main\AndroidManifest.xml:41:9-43:40
+70            android:name="com.example.smartparking.ParkingAvailable"
+70-->C:\Users\Victus\AndroidStudioProjects\SmartParking\app\src\main\AndroidManifest.xml:42:13-45
+71            android:exported="false" />
+71-->C:\Users\Victus\AndroidStudioProjects\SmartParking\app\src\main\AndroidManifest.xml:43:13-37
+72        <activity
+72-->C:\Users\Victus\AndroidStudioProjects\SmartParking\app\src\main\AndroidManifest.xml:44:9-46:40
+73            android:name="com.example.smartparking.Dashboard"
+73-->C:\Users\Victus\AndroidStudioProjects\SmartParking\app\src\main\AndroidManifest.xml:45:13-38
+74            android:exported="false" />
+74-->C:\Users\Victus\AndroidStudioProjects\SmartParking\app\src\main\AndroidManifest.xml:46:13-37
+75        <activity
+75-->C:\Users\Victus\AndroidStudioProjects\SmartParking\app\src\main\AndroidManifest.xml:47:9-49:40
+76            android:name="com.example.smartparking.LoginRegisterUser"
+76-->C:\Users\Victus\AndroidStudioProjects\SmartParking\app\src\main\AndroidManifest.xml:48:13-46
+77            android:exported="false" />
+77-->C:\Users\Victus\AndroidStudioProjects\SmartParking\app\src\main\AndroidManifest.xml:49:13-37
+78        <activity
+78-->C:\Users\Victus\AndroidStudioProjects\SmartParking\app\src\main\AndroidManifest.xml:50:9-52:40
+79            android:name="com.example.smartparking.user_Switch"
+79-->C:\Users\Victus\AndroidStudioProjects\SmartParking\app\src\main\AndroidManifest.xml:51:13-40
+80            android:exported="false" />
+80-->C:\Users\Victus\AndroidStudioProjects\SmartParking\app\src\main\AndroidManifest.xml:52:13-37
+81        <activity
+81-->C:\Users\Victus\AndroidStudioProjects\SmartParking\app\src\main\AndroidManifest.xml:53:9-55:40
+82            android:name="com.example.smartparking.LoginRegisterActivity"
+82-->C:\Users\Victus\AndroidStudioProjects\SmartParking\app\src\main\AndroidManifest.xml:54:13-50
+83            android:exported="false" />
+83-->C:\Users\Victus\AndroidStudioProjects\SmartParking\app\src\main\AndroidManifest.xml:55:13-37
+84        <activity
+84-->C:\Users\Victus\AndroidStudioProjects\SmartParking\app\src\main\AndroidManifest.xml:56:9-64:20
+85            android:name="com.example.smartparking.MainActivity"
+85-->C:\Users\Victus\AndroidStudioProjects\SmartParking\app\src\main\AndroidManifest.xml:57:13-41
+86            android:exported="true" >
+86-->C:\Users\Victus\AndroidStudioProjects\SmartParking\app\src\main\AndroidManifest.xml:58:13-36
+87            <intent-filter>
+87-->C:\Users\Victus\AndroidStudioProjects\SmartParking\app\src\main\AndroidManifest.xml:59:13-63:29
+88                <action android:name="android.intent.action.MAIN" />
+88-->C:\Users\Victus\AndroidStudioProjects\SmartParking\app\src\main\AndroidManifest.xml:60:17-69
+88-->C:\Users\Victus\AndroidStudioProjects\SmartParking\app\src\main\AndroidManifest.xml:60:25-66
+89
+90                <category android:name="android.intent.category.LAUNCHER" />
+90-->C:\Users\Victus\AndroidStudioProjects\SmartParking\app\src\main\AndroidManifest.xml:62:17-77
+90-->C:\Users\Victus\AndroidStudioProjects\SmartParking\app\src\main\AndroidManifest.xml:62:27-74
+91            </intent-filter>
+92        </activity>
+93        <!-- Needs to be explicitly declared on P+ -->
+94        <uses-library
+94-->[com.google.android.gms:play-services-maps:19.0.0] C:\Users\Victus\.gradle\caches\transforms-4\fa2fbe5b1e1e9e05a21c8e1ca5d172eb\transformed\play-services-maps-19.0.0\AndroidManifest.xml:39:9-41:40
+95            android:name="org.apache.http.legacy"
+95-->[com.google.android.gms:play-services-maps:19.0.0] C:\Users\Victus\.gradle\caches\transforms-4\fa2fbe5b1e1e9e05a21c8e1ca5d172eb\transformed\play-services-maps-19.0.0\AndroidManifest.xml:40:13-50
+96            android:required="false" />
+96-->[com.google.android.gms:play-services-maps:19.0.0] C:\Users\Victus\.gradle\caches\transforms-4\fa2fbe5b1e1e9e05a21c8e1ca5d172eb\transformed\play-services-maps-19.0.0\AndroidManifest.xml:41:13-37
+97
+98        <activity
+98-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\Victus\.gradle\caches\transforms-4\506971fc803442795e0ad6f2fb260fbe\transformed\firebase-auth-23.0.0\AndroidManifest.xml:29:9-46:20
+99            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+99-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\Victus\.gradle\caches\transforms-4\506971fc803442795e0ad6f2fb260fbe\transformed\firebase-auth-23.0.0\AndroidManifest.xml:30:13-80
+100            android:excludeFromRecents="true"
+100-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\Victus\.gradle\caches\transforms-4\506971fc803442795e0ad6f2fb260fbe\transformed\firebase-auth-23.0.0\AndroidManifest.xml:31:13-46
+101            android:exported="true"
+101-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\Victus\.gradle\caches\transforms-4\506971fc803442795e0ad6f2fb260fbe\transformed\firebase-auth-23.0.0\AndroidManifest.xml:32:13-36
+102            android:launchMode="singleTask"
+102-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\Victus\.gradle\caches\transforms-4\506971fc803442795e0ad6f2fb260fbe\transformed\firebase-auth-23.0.0\AndroidManifest.xml:33:13-44
+103            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+103-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\Victus\.gradle\caches\transforms-4\506971fc803442795e0ad6f2fb260fbe\transformed\firebase-auth-23.0.0\AndroidManifest.xml:34:13-72
+104            <intent-filter>
+104-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\Victus\.gradle\caches\transforms-4\506971fc803442795e0ad6f2fb260fbe\transformed\firebase-auth-23.0.0\AndroidManifest.xml:35:13-45:29
+105                <action android:name="android.intent.action.VIEW" />
+105-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\Victus\.gradle\caches\transforms-4\506971fc803442795e0ad6f2fb260fbe\transformed\firebase-auth-23.0.0\AndroidManifest.xml:36:17-69
+105-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\Victus\.gradle\caches\transforms-4\506971fc803442795e0ad6f2fb260fbe\transformed\firebase-auth-23.0.0\AndroidManifest.xml:36:25-66
+106
+107                <category android:name="android.intent.category.DEFAULT" />
+107-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\Victus\.gradle\caches\transforms-4\506971fc803442795e0ad6f2fb260fbe\transformed\firebase-auth-23.0.0\AndroidManifest.xml:38:17-76
+107-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\Victus\.gradle\caches\transforms-4\506971fc803442795e0ad6f2fb260fbe\transformed\firebase-auth-23.0.0\AndroidManifest.xml:38:27-73
+108                <category android:name="android.intent.category.BROWSABLE" />
+108-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\Victus\.gradle\caches\transforms-4\506971fc803442795e0ad6f2fb260fbe\transformed\firebase-auth-23.0.0\AndroidManifest.xml:39:17-78
+108-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\Victus\.gradle\caches\transforms-4\506971fc803442795e0ad6f2fb260fbe\transformed\firebase-auth-23.0.0\AndroidManifest.xml:39:27-75
+109
+110                <data
+110-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\Victus\.gradle\caches\transforms-4\506971fc803442795e0ad6f2fb260fbe\transformed\firebase-auth-23.0.0\AndroidManifest.xml:41:17-44:51
+111                    android:host="firebase.auth"
+111-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\Victus\.gradle\caches\transforms-4\506971fc803442795e0ad6f2fb260fbe\transformed\firebase-auth-23.0.0\AndroidManifest.xml:42:21-49
+112                    android:path="/"
+112-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\Victus\.gradle\caches\transforms-4\506971fc803442795e0ad6f2fb260fbe\transformed\firebase-auth-23.0.0\AndroidManifest.xml:43:21-37
+113                    android:scheme="genericidp" />
+113-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\Victus\.gradle\caches\transforms-4\506971fc803442795e0ad6f2fb260fbe\transformed\firebase-auth-23.0.0\AndroidManifest.xml:44:21-48
+114            </intent-filter>
+115        </activity>
+116        <activity
+116-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\Victus\.gradle\caches\transforms-4\506971fc803442795e0ad6f2fb260fbe\transformed\firebase-auth-23.0.0\AndroidManifest.xml:47:9-64:20
+117            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+117-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\Victus\.gradle\caches\transforms-4\506971fc803442795e0ad6f2fb260fbe\transformed\firebase-auth-23.0.0\AndroidManifest.xml:48:13-79
+118            android:excludeFromRecents="true"
+118-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\Victus\.gradle\caches\transforms-4\506971fc803442795e0ad6f2fb260fbe\transformed\firebase-auth-23.0.0\AndroidManifest.xml:49:13-46
+119            android:exported="true"
+119-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\Victus\.gradle\caches\transforms-4\506971fc803442795e0ad6f2fb260fbe\transformed\firebase-auth-23.0.0\AndroidManifest.xml:50:13-36
+120            android:launchMode="singleTask"
+120-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\Victus\.gradle\caches\transforms-4\506971fc803442795e0ad6f2fb260fbe\transformed\firebase-auth-23.0.0\AndroidManifest.xml:51:13-44
+121            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+121-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\Victus\.gradle\caches\transforms-4\506971fc803442795e0ad6f2fb260fbe\transformed\firebase-auth-23.0.0\AndroidManifest.xml:52:13-72
+122            <intent-filter>
+122-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\Victus\.gradle\caches\transforms-4\506971fc803442795e0ad6f2fb260fbe\transformed\firebase-auth-23.0.0\AndroidManifest.xml:53:13-63:29
+123                <action android:name="android.intent.action.VIEW" />
+123-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\Victus\.gradle\caches\transforms-4\506971fc803442795e0ad6f2fb260fbe\transformed\firebase-auth-23.0.0\AndroidManifest.xml:36:17-69
+123-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\Victus\.gradle\caches\transforms-4\506971fc803442795e0ad6f2fb260fbe\transformed\firebase-auth-23.0.0\AndroidManifest.xml:36:25-66
+124
+125                <category android:name="android.intent.category.DEFAULT" />
+125-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\Victus\.gradle\caches\transforms-4\506971fc803442795e0ad6f2fb260fbe\transformed\firebase-auth-23.0.0\AndroidManifest.xml:38:17-76
+125-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\Victus\.gradle\caches\transforms-4\506971fc803442795e0ad6f2fb260fbe\transformed\firebase-auth-23.0.0\AndroidManifest.xml:38:27-73
+126                <category android:name="android.intent.category.BROWSABLE" />
+126-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\Victus\.gradle\caches\transforms-4\506971fc803442795e0ad6f2fb260fbe\transformed\firebase-auth-23.0.0\AndroidManifest.xml:39:17-78
+126-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\Victus\.gradle\caches\transforms-4\506971fc803442795e0ad6f2fb260fbe\transformed\firebase-auth-23.0.0\AndroidManifest.xml:39:27-75
+127
+128                <data
+128-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\Victus\.gradle\caches\transforms-4\506971fc803442795e0ad6f2fb260fbe\transformed\firebase-auth-23.0.0\AndroidManifest.xml:41:17-44:51
+129                    android:host="firebase.auth"
+129-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\Victus\.gradle\caches\transforms-4\506971fc803442795e0ad6f2fb260fbe\transformed\firebase-auth-23.0.0\AndroidManifest.xml:42:21-49
+130                    android:path="/"
+130-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\Victus\.gradle\caches\transforms-4\506971fc803442795e0ad6f2fb260fbe\transformed\firebase-auth-23.0.0\AndroidManifest.xml:43:21-37
+131                    android:scheme="recaptcha" />
+131-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\Victus\.gradle\caches\transforms-4\506971fc803442795e0ad6f2fb260fbe\transformed\firebase-auth-23.0.0\AndroidManifest.xml:44:21-48
+132            </intent-filter>
+133        </activity>
+134
+135        <service
+135-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\Victus\.gradle\caches\transforms-4\506971fc803442795e0ad6f2fb260fbe\transformed\firebase-auth-23.0.0\AndroidManifest.xml:66:9-72:19
+136            android:name="com.google.firebase.components.ComponentDiscoveryService"
+136-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\Victus\.gradle\caches\transforms-4\506971fc803442795e0ad6f2fb260fbe\transformed\firebase-auth-23.0.0\AndroidManifest.xml:67:13-84
+137            android:directBootAware="true"
+137-->[com.google.firebase:firebase-common:21.0.0] C:\Users\Victus\.gradle\caches\transforms-4\5a0875b4ef93d6433a4701fc0a8c1f99\transformed\firebase-common-21.0.0\AndroidManifest.xml:32:13-43
+138            android:exported="false" >
+138-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\Victus\.gradle\caches\transforms-4\506971fc803442795e0ad6f2fb260fbe\transformed\firebase-auth-23.0.0\AndroidManifest.xml:68:13-37
+139            <meta-data
+139-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\Victus\.gradle\caches\transforms-4\506971fc803442795e0ad6f2fb260fbe\transformed\firebase-auth-23.0.0\AndroidManifest.xml:69:13-71:85
+140                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+140-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\Victus\.gradle\caches\transforms-4\506971fc803442795e0ad6f2fb260fbe\transformed\firebase-auth-23.0.0\AndroidManifest.xml:70:17-109
+141                android:value="com.google.firebase.components.ComponentRegistrar" />
+141-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\Victus\.gradle\caches\transforms-4\506971fc803442795e0ad6f2fb260fbe\transformed\firebase-auth-23.0.0\AndroidManifest.xml:71:17-82
+142            <meta-data
+142-->[com.google.firebase:firebase-database:21.0.0] C:\Users\Victus\.gradle\caches\transforms-4\5eaa029ef720cfbe54d31d4358538cec\transformed\firebase-database-21.0.0\AndroidManifest.xml:29:13-31:85
+143                android:name="com.google.firebase.components:com.google.firebase.database.FirebaseDatabaseKtxRegistrar"
+143-->[com.google.firebase:firebase-database:21.0.0] C:\Users\Victus\.gradle\caches\transforms-4\5eaa029ef720cfbe54d31d4358538cec\transformed\firebase-database-21.0.0\AndroidManifest.xml:30:17-120
+144                android:value="com.google.firebase.components.ComponentRegistrar" />
+144-->[com.google.firebase:firebase-database:21.0.0] C:\Users\Victus\.gradle\caches\transforms-4\5eaa029ef720cfbe54d31d4358538cec\transformed\firebase-database-21.0.0\AndroidManifest.xml:31:17-82
+145            <meta-data
+145-->[com.google.firebase:firebase-database:21.0.0] C:\Users\Victus\.gradle\caches\transforms-4\5eaa029ef720cfbe54d31d4358538cec\transformed\firebase-database-21.0.0\AndroidManifest.xml:32:13-34:85
+146                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+146-->[com.google.firebase:firebase-database:21.0.0] C:\Users\Victus\.gradle\caches\transforms-4\5eaa029ef720cfbe54d31d4358538cec\transformed\firebase-database-21.0.0\AndroidManifest.xml:33:17-109
+147                android:value="com.google.firebase.components.ComponentRegistrar" />
+147-->[com.google.firebase:firebase-database:21.0.0] C:\Users\Victus\.gradle\caches\transforms-4\5eaa029ef720cfbe54d31d4358538cec\transformed\firebase-database-21.0.0\AndroidManifest.xml:34:17-82
+148            <meta-data
+148-->[com.google.firebase:firebase-crashlytics:19.2.0] C:\Users\Victus\.gradle\caches\transforms-4\7fbf62914e77e2e8565fbd5ebdf0de44\transformed\firebase-crashlytics-19.2.0\AndroidManifest.xml:15:13-17:85
+149                android:name="com.google.firebase.components:com.google.firebase.crashlytics.FirebaseCrashlyticsKtxRegistrar"
+149-->[com.google.firebase:firebase-crashlytics:19.2.0] C:\Users\Victus\.gradle\caches\transforms-4\7fbf62914e77e2e8565fbd5ebdf0de44\transformed\firebase-crashlytics-19.2.0\AndroidManifest.xml:16:17-126
+150                android:value="com.google.firebase.components.ComponentRegistrar" />
+150-->[com.google.firebase:firebase-crashlytics:19.2.0] C:\Users\Victus\.gradle\caches\transforms-4\7fbf62914e77e2e8565fbd5ebdf0de44\transformed\firebase-crashlytics-19.2.0\AndroidManifest.xml:17:17-82
+151            <meta-data
+151-->[com.google.firebase:firebase-crashlytics:19.2.0] C:\Users\Victus\.gradle\caches\transforms-4\7fbf62914e77e2e8565fbd5ebdf0de44\transformed\firebase-crashlytics-19.2.0\AndroidManifest.xml:18:13-20:85
+152                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+152-->[com.google.firebase:firebase-crashlytics:19.2.0] C:\Users\Victus\.gradle\caches\transforms-4\7fbf62914e77e2e8565fbd5ebdf0de44\transformed\firebase-crashlytics-19.2.0\AndroidManifest.xml:19:17-115
+153                android:value="com.google.firebase.components.ComponentRegistrar" />
+153-->[com.google.firebase:firebase-crashlytics:19.2.0] C:\Users\Victus\.gradle\caches\transforms-4\7fbf62914e77e2e8565fbd5ebdf0de44\transformed\firebase-crashlytics-19.2.0\AndroidManifest.xml:20:17-82
+154            <meta-data
+154-->[com.google.firebase:firebase-sessions:2.0.5] C:\Users\Victus\.gradle\caches\transforms-4\fa528edab77a56bc096e38ee2a3c7226\transformed\firebase-sessions-2.0.5\AndroidManifest.xml:29:13-31:85
+155                android:name="com.google.firebase.components:com.google.firebase.sessions.FirebaseSessionsRegistrar"
+155-->[com.google.firebase:firebase-sessions:2.0.5] C:\Users\Victus\.gradle\caches\transforms-4\fa528edab77a56bc096e38ee2a3c7226\transformed\firebase-sessions-2.0.5\AndroidManifest.xml:30:17-117
+156                android:value="com.google.firebase.components.ComponentRegistrar" />
+156-->[com.google.firebase:firebase-sessions:2.0.5] C:\Users\Victus\.gradle\caches\transforms-4\fa528edab77a56bc096e38ee2a3c7226\transformed\firebase-sessions-2.0.5\AndroidManifest.xml:31:17-82
+157            <meta-data
+157-->[com.google.firebase:firebase-installations:18.0.0] C:\Users\Victus\.gradle\caches\transforms-4\cfd4b60063c913f9d132e7cbdf551770\transformed\firebase-installations-18.0.0\AndroidManifest.xml:15:13-17:85
+158                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar"
+158-->[com.google.firebase:firebase-installations:18.0.0] C:\Users\Victus\.gradle\caches\transforms-4\cfd4b60063c913f9d132e7cbdf551770\transformed\firebase-installations-18.0.0\AndroidManifest.xml:16:17-130
+159                android:value="com.google.firebase.components.ComponentRegistrar" />
+159-->[com.google.firebase:firebase-installations:18.0.0] C:\Users\Victus\.gradle\caches\transforms-4\cfd4b60063c913f9d132e7cbdf551770\transformed\firebase-installations-18.0.0\AndroidManifest.xml:17:17-82
+160            <meta-data
+160-->[com.google.firebase:firebase-installations:18.0.0] C:\Users\Victus\.gradle\caches\transforms-4\cfd4b60063c913f9d132e7cbdf551770\transformed\firebase-installations-18.0.0\AndroidManifest.xml:18:13-20:85
+161                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+161-->[com.google.firebase:firebase-installations:18.0.0] C:\Users\Victus\.gradle\caches\transforms-4\cfd4b60063c913f9d132e7cbdf551770\transformed\firebase-installations-18.0.0\AndroidManifest.xml:19:17-127
+162                android:value="com.google.firebase.components.ComponentRegistrar" />
+162-->[com.google.firebase:firebase-installations:18.0.0] C:\Users\Victus\.gradle\caches\transforms-4\cfd4b60063c913f9d132e7cbdf551770\transformed\firebase-installations-18.0.0\AndroidManifest.xml:20:17-82
+163            <meta-data
+163-->[com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\Victus\.gradle\caches\transforms-4\1b16e89bc0e93cbcde158fcec939e835\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:12:13-14:85
+164                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+164-->[com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\Victus\.gradle\caches\transforms-4\1b16e89bc0e93cbcde158fcec939e835\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:13:17-116
+165                android:value="com.google.firebase.components.ComponentRegistrar" />
+165-->[com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\Victus\.gradle\caches\transforms-4\1b16e89bc0e93cbcde158fcec939e835\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:14:17-82
+166            <meta-data
+166-->[com.google.firebase:firebase-common:21.0.0] C:\Users\Victus\.gradle\caches\transforms-4\5a0875b4ef93d6433a4701fc0a8c1f99\transformed\firebase-common-21.0.0\AndroidManifest.xml:35:13-37:85
+167                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+167-->[com.google.firebase:firebase-common:21.0.0] C:\Users\Victus\.gradle\caches\transforms-4\5a0875b4ef93d6433a4701fc0a8c1f99\transformed\firebase-common-21.0.0\AndroidManifest.xml:36:17-109
+168                android:value="com.google.firebase.components.ComponentRegistrar" />
+168-->[com.google.firebase:firebase-common:21.0.0] C:\Users\Victus\.gradle\caches\transforms-4\5a0875b4ef93d6433a4701fc0a8c1f99\transformed\firebase-common-21.0.0\AndroidManifest.xml:37:17-82
+169            <meta-data
+169-->[com.google.firebase:firebase-datatransport:19.0.0] C:\Users\Victus\.gradle\caches\transforms-4\02b58a86d5001d8448d34d9430f1213c\transformed\firebase-datatransport-19.0.0\AndroidManifest.xml:25:13-27:85
+170                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+170-->[com.google.firebase:firebase-datatransport:19.0.0] C:\Users\Victus\.gradle\caches\transforms-4\02b58a86d5001d8448d34d9430f1213c\transformed\firebase-datatransport-19.0.0\AndroidManifest.xml:26:17-115
+171                android:value="com.google.firebase.components.ComponentRegistrar" />
+171-->[com.google.firebase:firebase-datatransport:19.0.0] C:\Users\Victus\.gradle\caches\transforms-4\02b58a86d5001d8448d34d9430f1213c\transformed\firebase-datatransport-19.0.0\AndroidManifest.xml:27:17-82
+172        </service>
+173        <service
+173-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Victus\.gradle\caches\transforms-4\b11591f0b0e8ba7eca08cb7fd864b8c3\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:24:9-32:19
+174            android:name="androidx.credentials.playservices.CredentialProviderMetadataHolder"
+174-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Victus\.gradle\caches\transforms-4\b11591f0b0e8ba7eca08cb7fd864b8c3\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:25:13-94
+175            android:enabled="true"
+175-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Victus\.gradle\caches\transforms-4\b11591f0b0e8ba7eca08cb7fd864b8c3\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:26:13-35
+176            android:exported="false" >
+176-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Victus\.gradle\caches\transforms-4\b11591f0b0e8ba7eca08cb7fd864b8c3\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:27:13-37
+177            <meta-data
+177-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Victus\.gradle\caches\transforms-4\b11591f0b0e8ba7eca08cb7fd864b8c3\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:29:13-31:104
+178                android:name="androidx.credentials.CREDENTIAL_PROVIDER_KEY"
+178-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Victus\.gradle\caches\transforms-4\b11591f0b0e8ba7eca08cb7fd864b8c3\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:30:17-76
+179                android:value="androidx.credentials.playservices.CredentialProviderPlayServicesImpl" />
+179-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Victus\.gradle\caches\transforms-4\b11591f0b0e8ba7eca08cb7fd864b8c3\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:31:17-101
+180        </service>
+181
+182        <activity
+182-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Victus\.gradle\caches\transforms-4\b11591f0b0e8ba7eca08cb7fd864b8c3\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:34:9-41:20
+183            android:name="androidx.credentials.playservices.HiddenActivity"
+183-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Victus\.gradle\caches\transforms-4\b11591f0b0e8ba7eca08cb7fd864b8c3\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:35:13-76
+184            android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
+184-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Victus\.gradle\caches\transforms-4\b11591f0b0e8ba7eca08cb7fd864b8c3\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:36:13-87
+185            android:enabled="true"
+185-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Victus\.gradle\caches\transforms-4\b11591f0b0e8ba7eca08cb7fd864b8c3\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:37:13-35
+186            android:exported="false"
+186-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Victus\.gradle\caches\transforms-4\b11591f0b0e8ba7eca08cb7fd864b8c3\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:38:13-37
+187            android:fitsSystemWindows="true"
+187-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Victus\.gradle\caches\transforms-4\b11591f0b0e8ba7eca08cb7fd864b8c3\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:39:13-45
+188            android:theme="@style/Theme.Hidden" >
+188-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Victus\.gradle\caches\transforms-4\b11591f0b0e8ba7eca08cb7fd864b8c3\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:40:13-48
+189        </activity>
+190        <activity
+190-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\Victus\.gradle\caches\transforms-4\930e1e11ccb25fc74829996f09fae1c3\transformed\play-services-auth-20.7.0\AndroidManifest.xml:23:9-27:75
+191            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+191-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\Victus\.gradle\caches\transforms-4\930e1e11ccb25fc74829996f09fae1c3\transformed\play-services-auth-20.7.0\AndroidManifest.xml:24:13-93
+192            android:excludeFromRecents="true"
+192-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\Victus\.gradle\caches\transforms-4\930e1e11ccb25fc74829996f09fae1c3\transformed\play-services-auth-20.7.0\AndroidManifest.xml:25:13-46
+193            android:exported="false"
+193-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\Victus\.gradle\caches\transforms-4\930e1e11ccb25fc74829996f09fae1c3\transformed\play-services-auth-20.7.0\AndroidManifest.xml:26:13-37
+194            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+194-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\Victus\.gradle\caches\transforms-4\930e1e11ccb25fc74829996f09fae1c3\transformed\play-services-auth-20.7.0\AndroidManifest.xml:27:13-72
+195        <!--
+196            Service handling Google Sign-In user revocation. For apps that do not integrate with
+197            Google Sign-In, this service will never be started.
+198        -->
+199        <service
+199-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\Victus\.gradle\caches\transforms-4\930e1e11ccb25fc74829996f09fae1c3\transformed\play-services-auth-20.7.0\AndroidManifest.xml:33:9-37:51
+200            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+200-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\Victus\.gradle\caches\transforms-4\930e1e11ccb25fc74829996f09fae1c3\transformed\play-services-auth-20.7.0\AndroidManifest.xml:34:13-89
+201            android:exported="true"
+201-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\Victus\.gradle\caches\transforms-4\930e1e11ccb25fc74829996f09fae1c3\transformed\play-services-auth-20.7.0\AndroidManifest.xml:35:13-36
+202            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+202-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\Victus\.gradle\caches\transforms-4\930e1e11ccb25fc74829996f09fae1c3\transformed\play-services-auth-20.7.0\AndroidManifest.xml:36:13-107
+203            android:visibleToInstantApps="true" />
+203-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\Victus\.gradle\caches\transforms-4\930e1e11ccb25fc74829996f09fae1c3\transformed\play-services-auth-20.7.0\AndroidManifest.xml:37:13-48
+204
+205        <activity
+205-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\Victus\.gradle\caches\transforms-4\2c2836934b62ea624deaa567aa20c7ac\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:9-173
+206            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+206-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\Victus\.gradle\caches\transforms-4\2c2836934b62ea624deaa567aa20c7ac\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:19-85
+207            android:exported="false"
+207-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\Victus\.gradle\caches\transforms-4\2c2836934b62ea624deaa567aa20c7ac\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:146-170
+208            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+208-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\Victus\.gradle\caches\transforms-4\2c2836934b62ea624deaa567aa20c7ac\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:86-145
+209
+210        <service
+210-->[com.google.firebase:firebase-sessions:2.0.5] C:\Users\Victus\.gradle\caches\transforms-4\fa528edab77a56bc096e38ee2a3c7226\transformed\firebase-sessions-2.0.5\AndroidManifest.xml:22:9-25:40
+211            android:name="com.google.firebase.sessions.SessionLifecycleService"
+211-->[com.google.firebase:firebase-sessions:2.0.5] C:\Users\Victus\.gradle\caches\transforms-4\fa528edab77a56bc096e38ee2a3c7226\transformed\firebase-sessions-2.0.5\AndroidManifest.xml:23:13-80
+212            android:enabled="true"
+212-->[com.google.firebase:firebase-sessions:2.0.5] C:\Users\Victus\.gradle\caches\transforms-4\fa528edab77a56bc096e38ee2a3c7226\transformed\firebase-sessions-2.0.5\AndroidManifest.xml:24:13-35
+213            android:exported="false" />
+213-->[com.google.firebase:firebase-sessions:2.0.5] C:\Users\Victus\.gradle\caches\transforms-4\fa528edab77a56bc096e38ee2a3c7226\transformed\firebase-sessions-2.0.5\AndroidManifest.xml:25:13-37
+214
+215        <provider
+215-->[com.google.firebase:firebase-common:21.0.0] C:\Users\Victus\.gradle\caches\transforms-4\5a0875b4ef93d6433a4701fc0a8c1f99\transformed\firebase-common-21.0.0\AndroidManifest.xml:23:9-28:39
+216            android:name="com.google.firebase.provider.FirebaseInitProvider"
+216-->[com.google.firebase:firebase-common:21.0.0] C:\Users\Victus\.gradle\caches\transforms-4\5a0875b4ef93d6433a4701fc0a8c1f99\transformed\firebase-common-21.0.0\AndroidManifest.xml:24:13-77
+217            android:authorities="com.example.smartparking.firebaseinitprovider"
+217-->[com.google.firebase:firebase-common:21.0.0] C:\Users\Victus\.gradle\caches\transforms-4\5a0875b4ef93d6433a4701fc0a8c1f99\transformed\firebase-common-21.0.0\AndroidManifest.xml:25:13-72
+218            android:directBootAware="true"
+218-->[com.google.firebase:firebase-common:21.0.0] C:\Users\Victus\.gradle\caches\transforms-4\5a0875b4ef93d6433a4701fc0a8c1f99\transformed\firebase-common-21.0.0\AndroidManifest.xml:26:13-43
+219            android:exported="false"
+219-->[com.google.firebase:firebase-common:21.0.0] C:\Users\Victus\.gradle\caches\transforms-4\5a0875b4ef93d6433a4701fc0a8c1f99\transformed\firebase-common-21.0.0\AndroidManifest.xml:27:13-37
+220            android:initOrder="100" />
+220-->[com.google.firebase:firebase-common:21.0.0] C:\Users\Victus\.gradle\caches\transforms-4\5a0875b4ef93d6433a4701fc0a8c1f99\transformed\firebase-common-21.0.0\AndroidManifest.xml:28:13-36
+221        <provider
+221-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Victus\.gradle\caches\transforms-4\8ea71d82d76c89c6526adab92282f127\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+222            android:name="androidx.startup.InitializationProvider"
+222-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Victus\.gradle\caches\transforms-4\8ea71d82d76c89c6526adab92282f127\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+223            android:authorities="com.example.smartparking.androidx-startup"
+223-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Victus\.gradle\caches\transforms-4\8ea71d82d76c89c6526adab92282f127\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+224            android:exported="false" >
+224-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Victus\.gradle\caches\transforms-4\8ea71d82d76c89c6526adab92282f127\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+225            <meta-data
+225-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Victus\.gradle\caches\transforms-4\8ea71d82d76c89c6526adab92282f127\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+226                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+226-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Victus\.gradle\caches\transforms-4\8ea71d82d76c89c6526adab92282f127\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+227                android:value="androidx.startup" />
+227-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Victus\.gradle\caches\transforms-4\8ea71d82d76c89c6526adab92282f127\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+228            <meta-data
+228-->[androidx.lifecycle:lifecycle-process:2.8.6] C:\Users\Victus\.gradle\caches\transforms-4\ff811cde79436d0d290a4897e5d0fb09\transformed\lifecycle-process-2.8.6\AndroidManifest.xml:29:13-31:52
+229                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+229-->[androidx.lifecycle:lifecycle-process:2.8.6] C:\Users\Victus\.gradle\caches\transforms-4\ff811cde79436d0d290a4897e5d0fb09\transformed\lifecycle-process-2.8.6\AndroidManifest.xml:30:17-78
+230                android:value="androidx.startup" />
+230-->[androidx.lifecycle:lifecycle-process:2.8.6] C:\Users\Victus\.gradle\caches\transforms-4\ff811cde79436d0d290a4897e5d0fb09\transformed\lifecycle-process-2.8.6\AndroidManifest.xml:31:17-49
+231            <meta-data
+231-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Victus\.gradle\caches\transforms-4\8b960cc10b76e472f3e7e93bb7764a60\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+232                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+232-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Victus\.gradle\caches\transforms-4\8b960cc10b76e472f3e7e93bb7764a60\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+233                android:value="androidx.startup" />
+233-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Victus\.gradle\caches\transforms-4\8b960cc10b76e472f3e7e93bb7764a60\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+234        </provider>
+235
+236        <meta-data
+236-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\Victus\.gradle\caches\transforms-4\0d6d6147245f3d525bfb29e1912e7d02\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:9-122
+237            android:name="com.google.android.gms.version"
+237-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\Victus\.gradle\caches\transforms-4\0d6d6147245f3d525bfb29e1912e7d02\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:20-65
+238            android:value="@integer/google_play_services_version" />
+238-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\Victus\.gradle\caches\transforms-4\0d6d6147245f3d525bfb29e1912e7d02\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:66-119
+239
+240        <receiver
+240-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Victus\.gradle\caches\transforms-4\8b960cc10b76e472f3e7e93bb7764a60\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+241            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+241-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Victus\.gradle\caches\transforms-4\8b960cc10b76e472f3e7e93bb7764a60\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+242            android:directBootAware="false"
+242-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Victus\.gradle\caches\transforms-4\8b960cc10b76e472f3e7e93bb7764a60\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+243            android:enabled="true"
+243-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Victus\.gradle\caches\transforms-4\8b960cc10b76e472f3e7e93bb7764a60\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+244            android:exported="true"
+244-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Victus\.gradle\caches\transforms-4\8b960cc10b76e472f3e7e93bb7764a60\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+245            android:permission="android.permission.DUMP" >
+245-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Victus\.gradle\caches\transforms-4\8b960cc10b76e472f3e7e93bb7764a60\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+246            <intent-filter>
+246-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Victus\.gradle\caches\transforms-4\8b960cc10b76e472f3e7e93bb7764a60\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+247                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+247-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Victus\.gradle\caches\transforms-4\8b960cc10b76e472f3e7e93bb7764a60\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+247-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Victus\.gradle\caches\transforms-4\8b960cc10b76e472f3e7e93bb7764a60\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+248            </intent-filter>
+249            <intent-filter>
+249-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Victus\.gradle\caches\transforms-4\8b960cc10b76e472f3e7e93bb7764a60\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+250                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+250-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Victus\.gradle\caches\transforms-4\8b960cc10b76e472f3e7e93bb7764a60\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+250-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Victus\.gradle\caches\transforms-4\8b960cc10b76e472f3e7e93bb7764a60\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+251            </intent-filter>
+252            <intent-filter>
+252-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Victus\.gradle\caches\transforms-4\8b960cc10b76e472f3e7e93bb7764a60\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+253                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+253-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Victus\.gradle\caches\transforms-4\8b960cc10b76e472f3e7e93bb7764a60\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+253-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Victus\.gradle\caches\transforms-4\8b960cc10b76e472f3e7e93bb7764a60\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+254            </intent-filter>
+255            <intent-filter>
+255-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Victus\.gradle\caches\transforms-4\8b960cc10b76e472f3e7e93bb7764a60\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+256                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+256-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Victus\.gradle\caches\transforms-4\8b960cc10b76e472f3e7e93bb7764a60\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+256-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Victus\.gradle\caches\transforms-4\8b960cc10b76e472f3e7e93bb7764a60\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+257            </intent-filter>
+258        </receiver>
+259
+260        <service
+260-->[com.google.android.datatransport:transport-backend-cct:3.3.0] C:\Users\Victus\.gradle\caches\transforms-4\f98bd8643eb4f0e43bdeabbdf7456f8b\transformed\transport-backend-cct-3.3.0\AndroidManifest.xml:26:9-32:19
+261            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+261-->[com.google.android.datatransport:transport-backend-cct:3.3.0] C:\Users\Victus\.gradle\caches\transforms-4\f98bd8643eb4f0e43bdeabbdf7456f8b\transformed\transport-backend-cct-3.3.0\AndroidManifest.xml:27:13-103
+262            android:exported="false" >
+262-->[com.google.android.datatransport:transport-backend-cct:3.3.0] C:\Users\Victus\.gradle\caches\transforms-4\f98bd8643eb4f0e43bdeabbdf7456f8b\transformed\transport-backend-cct-3.3.0\AndroidManifest.xml:28:13-37
+263            <meta-data
+263-->[com.google.android.datatransport:transport-backend-cct:3.3.0] C:\Users\Victus\.gradle\caches\transforms-4\f98bd8643eb4f0e43bdeabbdf7456f8b\transformed\transport-backend-cct-3.3.0\AndroidManifest.xml:29:13-31:39
+264                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+264-->[com.google.android.datatransport:transport-backend-cct:3.3.0] C:\Users\Victus\.gradle\caches\transforms-4\f98bd8643eb4f0e43bdeabbdf7456f8b\transformed\transport-backend-cct-3.3.0\AndroidManifest.xml:30:17-94
+265                android:value="cct" />
+265-->[com.google.android.datatransport:transport-backend-cct:3.3.0] C:\Users\Victus\.gradle\caches\transforms-4\f98bd8643eb4f0e43bdeabbdf7456f8b\transformed\transport-backend-cct-3.3.0\AndroidManifest.xml:31:17-36
+266        </service>
+267        <service
+267-->[com.google.android.datatransport:transport-runtime:3.3.0] C:\Users\Victus\.gradle\caches\transforms-4\21175dad887efffaa2ac6126cb544be5\transformed\transport-runtime-3.3.0\AndroidManifest.xml:24:9-28:19
+268            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+268-->[com.google.android.datatransport:transport-runtime:3.3.0] C:\Users\Victus\.gradle\caches\transforms-4\21175dad887efffaa2ac6126cb544be5\transformed\transport-runtime-3.3.0\AndroidManifest.xml:25:13-117
+269            android:exported="false"
+269-->[com.google.android.datatransport:transport-runtime:3.3.0] C:\Users\Victus\.gradle\caches\transforms-4\21175dad887efffaa2ac6126cb544be5\transformed\transport-runtime-3.3.0\AndroidManifest.xml:26:13-37
+270            android:permission="android.permission.BIND_JOB_SERVICE" >
+270-->[com.google.android.datatransport:transport-runtime:3.3.0] C:\Users\Victus\.gradle\caches\transforms-4\21175dad887efffaa2ac6126cb544be5\transformed\transport-runtime-3.3.0\AndroidManifest.xml:27:13-69
+271        </service>
+272
+273        <receiver
+273-->[com.google.android.datatransport:transport-runtime:3.3.0] C:\Users\Victus\.gradle\caches\transforms-4\21175dad887efffaa2ac6126cb544be5\transformed\transport-runtime-3.3.0\AndroidManifest.xml:30:9-32:40
+274            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+274-->[com.google.android.datatransport:transport-runtime:3.3.0] C:\Users\Victus\.gradle\caches\transforms-4\21175dad887efffaa2ac6126cb544be5\transformed\transport-runtime-3.3.0\AndroidManifest.xml:31:13-132
+275            android:exported="false" />
+275-->[com.google.android.datatransport:transport-runtime:3.3.0] C:\Users\Victus\.gradle\caches\transforms-4\21175dad887efffaa2ac6126cb544be5\transformed\transport-runtime-3.3.0\AndroidManifest.xml:32:13-37
+276    </application>
+277
+278</manifest>

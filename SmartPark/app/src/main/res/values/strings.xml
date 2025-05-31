@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Smart Parking</string>
+    <string name="title_activity_slotbooking_user">Slotbooking_user</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="title_activity_user_map">UserMap</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="enter_upi_id">Enter UPI ID</string>
+    <string name="enter_mobile_number">Enter Mobile Number</string>
+    <string name="login">Login</string>
+    <string name="sign_up">Sign up</string>
+</resources>

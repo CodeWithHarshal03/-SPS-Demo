@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuite name="com.example.smartparking.ExampleInstrumentedTest" tests="1" failures="0" errors="0" skipped="0" time="0.829" timestamp="2024-10-13T03:21:59" hostname="localhost">
+  <properties>
+    <property name="device" value="Sonu_Phone(AVD) - 14" />
+    <property name="flavor" value="" />
+    <property name="project" value=":app" />
+  </properties>
+  <testcase name="useAppContext" classname="com.example.smartparking.ExampleInstrumentedTest" time="0.031" />
+</testsuite>

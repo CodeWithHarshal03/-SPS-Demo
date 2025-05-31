@@ -1,0 +1,54 @@
+[
+    {
+        "merged": "com.example.smartparking.app-mergeDebugResources-43:/layout/activity_ticket.xml",
+        "source": "com.example.smartparking.app-main-46:/layout/activity_ticket.xml"
+    },
+    {
+        "merged": "com.example.smartparking.app-mergeDebugResources-43:/layout/activity_main.xml",
+        "source": "com.example.smartparking.app-main-46:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.smartparking.app-mergeDebugResources-43:/layout/activity_user_switch.xml",
+        "source": "com.example.smartparking.app-main-46:/layout/activity_user_switch.xml"
+    },
+    {
+        "merged": "com.example.smartparking.app-mergeDebugResources-43:/layout/activity_profileuser.xml",
+        "source": "com.example.smartparking.app-main-46:/layout/activity_profileuser.xml"
+    },
+    {
+        "merged": "com.example.smartparking.app-mergeDebugResources-43:/layout/activity_notificationuser.xml",
+        "source": "com.example.smartparking.app-main-46:/layout/activity_notificationuser.xml"
+    },
+    {
+        "merged": "com.example.smartparking.app-mergeDebugResources-43:/layout/activity_parking_booking.xml",
+        "source": "com.example.smartparking.app-main-46:/layout/activity_parking_booking.xml"
+    },
+    {
+        "merged": "com.example.smartparking.app-mergeDebugResources-43:/layout/activity_login_register.xml",
+        "source": "com.example.smartparking.app-main-46:/layout/activity_login_register.xml"
+    },
+    {
+        "merged": "com.example.smartparking.app-mergeDebugResources-43:/layout/activity_dashboard.xml",
+        "source": "com.example.smartparking.app-main-46:/layout/activity_dashboard.xml"
+    },
+    {
+        "merged": "com.example.smartparking.app-mergeDebugResources-43:/layout/activity_parking_available.xml",
+        "source": "com.example.smartparking.app-main-46:/layout/activity_parking_available.xml"
+    },
+    {
+        "merged": "com.example.smartparking.app-mergeDebugResources-43:/layout/activity_cctvphotoes.xml",
+        "source": "com.example.smartparking.app-main-46:/layout/activity_cctvphotoes.xml"
+    },
+    {
+        "merged": "com.example.smartparking.app-mergeDebugResources-43:/layout/activity_login_register_user.xml",
+        "source": "com.example.smartparking.app-main-46:/layout/activity_login_register_user.xml"
+    },
+    {
+        "merged": "com.example.smartparking.app-mergeDebugResources-43:/layout/activity_bookslots.xml",
+        "source": "com.example.smartparking.app-main-46:/layout/activity_bookslots.xml"
+    },
+    {
+        "merged": "com.example.smartparking.app-mergeDebugResources-43:/layout/activity_onlyforcopypast.xml",
+        "source": "com.example.smartparking.app-main-46:/layout/activity_onlyforcopypast.xml"
+    }
+]

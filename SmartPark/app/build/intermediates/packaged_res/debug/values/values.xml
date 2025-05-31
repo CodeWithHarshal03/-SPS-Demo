@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background_dark">#1E1E2D</color>
+    <color name="glass_background">#80FFFFFF</color>
+    <color name="input_background">#2B2B3E</color>
+    <color name="primary_color">#FFAA33</color>
+    <color name="shadow_color">#40000000</color>
+    <color name="white">#FFFFFF</color>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="appbar_padding">16dp</dimen>
+    <dimen name="appbar_padding_top">8dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <item name="entryLabel" type="id"/>
+    <string name="app_name">Smart Parking</string>
+    <string name="gcm_defaultSenderId" translatable="false">265097632562</string>
+    <string name="google_api_key" translatable="false">AIzaSyDDftmnOrKPEH7yEuI6oYGulpnb-13Wai0</string>
+    <string name="google_app_id" translatable="false">1:265097632562:android:3e79e915763f9671f4152b</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDDftmnOrKPEH7yEuI6oYGulpnb-13Wai0</string>
+    <string name="google_storage_bucket" translatable="false">smart-parking-7deed.appspot.com</string>
+    <string name="project_id" translatable="false">smart-parking-7deed</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="title_activity_slotbooking_user">Slotbooking_user</string>
+    <string name="title_activity_user_map">UserMap</string>
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        
+        <item name="colorPrimary">@color/primary_color</item>
+        <item name="colorPrimaryDark">@color/background_dark</item>
+        <item name="colorAccent">@color/cardview_light_background</item>
+        <item name="cardViewStyle">@style/MyCardView</item>
+    </style>
+    <style name="Base.Theme.SmartParking" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="MyCardView" parent="CardView">
+        <item name="cardElevation">8dp</item>
+        <item name="cardCornerRadius">16dp</item>
+        <item name="cardBackgroundColor">@color/white</item> 
+    </style>
+    <style name="Theme.SmartParking" parent="Base.Theme.SmartParking"/>
+    <style name="Theme.SmartParking.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <style name="Theme.SmartParking.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.SmartParking.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+</resources>

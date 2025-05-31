@@ -1,0 +1,174 @@
+[
+    {
+        "merged": "com.example.smartparking.app-merged_res-44:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.smartparking.app-main-46:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.smartparking.app-merged_res-44:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.smartparking.app-main-46:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.smartparking.app-merged_res-44:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.smartparking.app-main-46:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.smartparking.app-merged_res-44:/layout_activity_profileuser.xml.flat",
+        "source": "com.example.smartparking.app-main-46:/layout/activity_profileuser.xml"
+    },
+    {
+        "merged": "com.example.smartparking.app-merged_res-44:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.smartparking.app-main-46:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.smartparking.app-merged_res-44:/layout_activity_bookslots.xml.flat",
+        "source": "com.example.smartparking.app-main-46:/layout/activity_bookslots.xml"
+    },
+    {
+        "merged": "com.example.smartparking.app-merged_res-44:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.smartparking.app-main-46:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.smartparking.app-merged_res-44:/drawable_alternate_email_20px.xml.flat",
+        "source": "com.example.smartparking.app-main-46:/drawable/alternate_email_20px.xml"
+    },
+    {
+        "merged": "com.example.smartparking.app-merged_res-44:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.smartparking.app-main-46:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.smartparking.app-merged_res-44:/layout_activity_main.xml.flat",
+        "source": "com.example.smartparking.app-main-46:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.smartparking.app-merged_res-44:/layout_activity_login_register.xml.flat",
+        "source": "com.example.smartparking.app-main-46:/layout/activity_login_register.xml"
+    },
+    {
+        "merged": "com.example.smartparking.app-merged_res-44:/layout_activity_login_register_user.xml.flat",
+        "source": "com.example.smartparking.app-main-46:/layout/activity_login_register_user.xml"
+    },
+    {
+        "merged": "com.example.smartparking.app-merged_res-44:/drawable-anydpi_ic_action_name.xml.flat",
+        "source": "com.example.smartparking.app-main-46:/drawable-anydpi/ic_action_name.xml"
+    },
+    {
+        "merged": "com.example.smartparking.app-merged_res-44:/layout_activity_user_switch.xml.flat",
+        "source": "com.example.smartparking.app-main-46:/layout/activity_user_switch.xml"
+    },
+    {
+        "merged": "com.example.smartparking.app-merged_res-44:/layout_activity_parking_booking.xml.flat",
+        "source": "com.example.smartparking.app-main-46:/layout/activity_parking_booking.xml"
+    },
+    {
+        "merged": "com.example.smartparking.app-merged_res-44:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.smartparking.app-main-46:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.smartparking.app-merged_res-44:/layout_activity_ticket.xml.flat",
+        "source": "com.example.smartparking.app-main-46:/layout/activity_ticket.xml"
+    },
+    {
+        "merged": "com.example.smartparking.app-merged_res-44:/drawable_baseline_touch_app_24.xml.flat",
+        "source": "com.example.smartparking.app-main-46:/drawable/baseline_touch_app_24.xml"
+    },
+    {
+        "merged": "com.example.smartparking.app-merged_res-44:/drawable_custome_eddit.xml.flat",
+        "source": "com.example.smartparking.app-main-46:/drawable/custome_eddit.xml"
+    },
+    {
+        "merged": "com.example.smartparking.app-merged_res-44:/xml_backup_rules.xml.flat",
+        "source": "com.example.smartparking.app-main-46:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.smartparking.app-merged_res-44:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.smartparking.app-main-46:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.smartparking.app-merged_res-44:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.smartparking.app-main-46:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.smartparking.app-merged_res-44:/drawable_baseline_alternate_email_24.xml.flat",
+        "source": "com.example.smartparking.app-main-46:/drawable/baseline_alternate_email_24.xml"
+    },
+    {
+        "merged": "com.example.smartparking.app-merged_res-44:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.smartparking.app-main-46:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.smartparking.app-merged_res-44:/layout_activity_parking_available.xml.flat",
+        "source": "com.example.smartparking.app-main-46:/layout/activity_parking_available.xml"
+    },
+    {
+        "merged": "com.example.smartparking.app-merged_res-44:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.example.smartparking.app-main-46:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.smartparking.app-merged_res-44:/drawable_lock_20px.xml.flat",
+        "source": "com.example.smartparking.app-main-46:/drawable/lock_20px.xml"
+    },
+    {
+        "merged": "com.example.smartparking.app-merged_res-44:/drawable_baseline_lock_24.xml.flat",
+        "source": "com.example.smartparking.app-main-46:/drawable/baseline_lock_24.xml"
+    },
+    {
+        "merged": "com.example.smartparking.app-merged_res-44:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.smartparking.app-main-46:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.smartparking.app-merged_res-44:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.smartparking.app-main-46:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.smartparking.app-merged_res-44:/layout_activity_notificationuser.xml.flat",
+        "source": "com.example.smartparking.app-main-46:/layout/activity_notificationuser.xml"
+    },
+    {
+        "merged": "com.example.smartparking.app-merged_res-44:/drawable-mdpi_ic_action_name.png.flat",
+        "source": "com.example.smartparking.app-main-46:/drawable-mdpi/ic_action_name.png"
+    },
+    {
+        "merged": "com.example.smartparking.app-merged_res-44:/layout_activity_cctvphotoes.xml.flat",
+        "source": "com.example.smartparking.app-main-46:/layout/activity_cctvphotoes.xml"
+    },
+    {
+        "merged": "com.example.smartparking.app-merged_res-44:/drawable-xhdpi_ic_action_name.png.flat",
+        "source": "com.example.smartparking.app-main-46:/drawable-xhdpi/ic_action_name.png"
+    },
+    {
+        "merged": "com.example.smartparking.app-merged_res-44:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.smartparking.app-main-46:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.smartparking.app-merged_res-44:/layout_activity_onlyforcopypast.xml.flat",
+        "source": "com.example.smartparking.app-main-46:/layout/activity_onlyforcopypast.xml"
+    },
+    {
+        "merged": "com.example.smartparking.app-merged_res-44:/drawable-xxhdpi_ic_action_name.png.flat",
+        "source": "com.example.smartparking.app-main-46:/drawable-xxhdpi/ic_action_name.png"
+    },
+    {
+        "merged": "com.example.smartparking.app-merged_res-44:/layout_activity_dashboard.xml.flat",
+        "source": "com.example.smartparking.app-main-46:/layout/activity_dashboard.xml"
+    },
+    {
+        "merged": "com.example.smartparking.app-merged_res-44:/drawable_baseline_person_24.xml.flat",
+        "source": "com.example.smartparking.app-main-46:/drawable/baseline_person_24.xml"
+    },
+    {
+        "merged": "com.example.smartparking.app-merged_res-44:/drawable_person_20px.xml.flat",
+        "source": "com.example.smartparking.app-main-46:/drawable/person_20px.xml"
+    },
+    {
+        "merged": "com.example.smartparking.app-merged_res-44:/drawable_parking_slot_background.xml.flat",
+        "source": "com.example.smartparking.app-main-46:/drawable/parking_slot_background.xml"
+    },
+    {
+        "merged": "com.example.smartparking.app-merged_res-44:/drawable-hdpi_ic_action_name.png.flat",
+        "source": "com.example.smartparking.app-main-46:/drawable-hdpi/ic_action_name.png"
+    },
+    {
+        "merged": "com.example.smartparking.app-merged_res-44:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.smartparking.app-main-46:/mipmap-mdpi/ic_launcher_round.webp"
+    }
+]
